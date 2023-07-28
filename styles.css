@@ -68,7 +68,7 @@ nav {
   flex: 1;
 }
 
-.me-section {
+a {
   flex: 1; /* Use 'flex: 1' to make items take equal width */
   display: flex; /* Add display flex to center the text */
   justify-content: center; /* Add display flex to center the text */
