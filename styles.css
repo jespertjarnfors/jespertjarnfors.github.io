@@ -1,27 +1,96 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi:wght@700&display=swap");
+
 body {
-    margin: 0;
+  margin: 0;
+  font-family: Haas Display, Arial, sans-serif;
+  color: #1e1f1e;
+  background-color: #ebebe3;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .header {
-    font-size: 24px;
+  font-family: "Noto Sans Vithkuqi", sans-serif;
+  font-size: 24px;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  width: 96%;
+  font-weight: 2000;
 }
 
-button {
-    margin-top: 20px;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 96%;
+  border-bottom: 3px solid #1e1f1e;
+  background-color: #ebebe3 !important;
 }
-.main {
-    background-color: bisque;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 99%;
-    height: 500px;
+
+.first-window {
+  font-family: "Noto Sans Vithkuqi", sans-serif;
+  background-color: #ebebe3;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 96%;
+  height: 95vh;
+  border-bottom: 3px solid #1e1f1e;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: 2000;
+  color: #1e1f1e;
+  margin: 30px;
+}
+
+nav {
+  display: flex;
+}
+
+.me-section {
+  border-top: 3px solid #1e1f1e;
+  height: 60px;
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: stretch; /* Change to 'stretch' to make items equal height */
+  flex: 1;
+}
+
+.me-section {
+  flex: 1; /* Use 'flex: 1' to make items take equal width */
+  display: flex; /* Add display flex to center the text */
+  justify-content: center; /* Add display flex to center the text */
+  align-items: center; /* Add display flex to center the text */
+  margin-left: 15px;
+  padding: 15px;
+  border: 3px solid #1e1f1e;
+  padding: 10px 15px;
+}
+
+.about {
+  margin-left: 0;
+}
+
+.second-window {
+  background-color: #ebebe3;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 96%;
+  height: 95vh;
 }
