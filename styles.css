@@ -74,6 +74,7 @@ a {
   justify-content: center; /* Add display flex to center the text */
   align-items: center; /* Add display flex to center the text */
   margin-left: 15px;
+  width: 100px;
   padding: 15px;
   border: 3px solid #1e1f1e;
   padding: 10px 15px;
