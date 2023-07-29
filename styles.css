@@ -36,8 +36,8 @@ body {
   align-items: center;
 }
 
-.top-left:hover {
-  color: #585b58;
+.top-left > p:hover {
+  opacity: 0.5;
 }
 
 
@@ -52,11 +52,19 @@ a {
   width: 50px;
 }
 
+.github-icon:hover {
+  opacity: 0.5;
+}
+
 .linkedin-icon {
   height: 38px;
   width: 38px;
   margin-top: 20px;
   margin-right: 5px;
+}
+
+.linkedin-icon:hover {
+ opacity: 0.5;
 }
 
 .sticky {
@@ -85,6 +93,28 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: #1e1f1e;
+}
+
+.small-box {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  background-color: #ebebe3;
+  animation: myfirst infinite 2;
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 200px; top: 0px;}
+  50%  {background: blue; left: 200px; top: 200px;}
+  75%  {background: green; left: 0px; top: 200px;}
+  100% {background: red; left: 0px; top: 0px;}
 }
 
 .name {
