@@ -18,11 +18,31 @@ body {
 .header {
   font-family: "Noto Sans Vithkuqi", sans-serif;
   font-size: 24px;
+  width: 96%;
+  font-weight: 2000;
+}
+
+.top-left {
   float: left;
   display: flex;
   flex-direction: row;
-  width: 96%;
-  font-weight: 2000;
+  align-items: center;
+}
+
+.top-left:hover {
+  color: #585b58;
+}
+
+
+a {
+  text-decoration: none;
+  color: #1e1f1e;
+}
+
+
+.github-icon {
+  height: 50px;
+  width: 50px;
 }
 
 .sticky {
@@ -47,11 +67,18 @@ body {
   border-bottom: 3px solid #1e1f1e;
 }
 
+.first-window-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .name {
   font-size: 48px;
   font-weight: 2000;
   color: #1e1f1e;
   margin: 30px;
+  margin-bottom: 40px;
 }
 
 nav {
@@ -64,15 +91,15 @@ nav {
   display: flex;
   padding-top: 30px;
   justify-content: center;
-  align-items: stretch; /* Change to 'stretch' to make items equal height */
+  align-items: stretch;
   flex: 1;
 }
 
-a {
-  flex: 1; /* Use 'flex: 1' to make items take equal width */
-  display: flex; /* Add display flex to center the text */
-  justify-content: center; /* Add display flex to center the text */
-  align-items: center; /* Add display flex to center the text */
+.me-section > a {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 15px;
   width: 100px;
   padding: 15px;
@@ -80,8 +107,13 @@ a {
   padding: 10px 15px;
 }
 
-.about {
-  margin-left: 0;
+.me-section > a:hover {
+  background-color: #FF5E00;
+  color: #FFFFFF;
+}
+
+.projects {
+  margin-left: 0 !important;
 }
 
 .second-window {
