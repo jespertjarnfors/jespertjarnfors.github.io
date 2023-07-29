@@ -40,12 +40,10 @@ body {
   opacity: 0.5;
 }
 
-
 a {
   text-decoration: none;
   color: #1e1f1e;
 }
-
 
 .github-icon {
   height: 50px;
@@ -64,7 +62,7 @@ a {
 }
 
 .linkedin-icon:hover {
- opacity: 0.5;
+  opacity: 0.5;
 }
 
 .sticky {
@@ -96,25 +94,63 @@ a {
 }
 
 .box {
-  height: 100px;
-  width: 100px;
-  background-color: #1e1f1e;
+  height: 60px;
+  width: 60px;
+  background-color: #ebebe3;
+  border: 3px solid #1e1f1e;
 }
 
-.small-box {
-  height: 20px;
-  width: 20px;
+.small-box-top {
+  height: 18px;
+  width: 18px;
   position: relative;
   background-color: #ebebe3;
-  animation: myfirst infinite 2;
+  animation: top 5s infinite;
+  animation-direction: alternate;
 }
 
-@keyframes myfirst {
-  0%   {background: red; left: 0px; top: 0px;}
-  25%  {background: yellow; left: 200px; top: 0px;}
-  50%  {background: blue; left: 200px; top: 200px;}
-  75%  {background: green; left: 0px; top: 200px;}
-  100% {background: red; left: 0px; top: 0px;}
+.small-box-2 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  float: right;
+  background-color: #ebebe3;
+}
+
+.small-box-3 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  float: left;
+  background-color: #ebebe3;
+}
+
+@keyframes top {
+  0% {
+    background: #1e1f1e;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background: #1e1f1e;
+    left: 42px;
+    top: 0px;
+  }
+  50% {
+    background: #1e1f1e;
+    left: 42px;
+    top: 42px;
+  }
+  75% {
+    background: #1e1f1e;
+    left: 0px;
+    top: 42px;
+  }
+  100% {
+    background: #1e1f1e;
+    left: 0px;
+    top: 0px;
+  }
 }
 
 .name {
@@ -122,6 +158,8 @@ a {
   font-weight: 2000;
   color: #1e1f1e;
   margin: 30px;
+  margin-left: 0;
+  padding-left: 40px;
   margin-bottom: 40px;
 }
 
@@ -152,8 +190,8 @@ nav {
 }
 
 .me-section > a:hover {
-  background-color: #FF5E00;
-  color: #FFFFFF;
+  background-color: #ff5e00;
+  color: #ffffff;
 }
 
 .projects {
