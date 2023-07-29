@@ -1,6 +1,8 @@
 /* styles.css */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi:wght@700&display=swap");
 
+html { scroll-behavior: smooth; } 
+
 body {
   margin: 0;
   font-family: Haas Display, Arial, sans-serif;
@@ -208,4 +210,15 @@ nav {
   flex-direction: column;
   width: 96%;
   height: 95vh;
+}
+
+.project-page {
+  font-family: "Noto Sans Vithkuqi", sans-serif;
+  font-size: 48px;
+  font-weight: 2000;
+  color: #1e1f1e;
+  margin: 30px;
+  margin-left: 0;
+  padding-left: 40px;
+  margin-bottom: 40px;
 }
