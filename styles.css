@@ -22,6 +22,13 @@ body {
   font-weight: 2000;
 }
 
+.top-right {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .top-left {
   float: left;
   display: flex;
@@ -43,6 +50,13 @@ a {
 .github-icon {
   height: 50px;
   width: 50px;
+}
+
+.linkedin-icon {
+  height: 38px;
+  width: 38px;
+  margin-top: 20px;
+  margin-right: 5px;
 }
 
 .sticky {
